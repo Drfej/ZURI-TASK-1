@@ -1,48 +1,56 @@
-body, p{
+body{
     color: black;
     margin: 0;
     padding: 0;
+    background-image: url(google-background.jpg)
 }
 nav{
     display:flex;
-    justify-content: space-around;
-    width: 20%;
+    justify-content: space-between;
+    width: 12%;
     margin-left: auto;
     padding: 2em;
 }
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
 }
 nav img{
-    height: 20px;
+    height: 25px;
+    margin-bottom: 100%;
 }
 main{
-    width: 40%;
-    margin: 3.6em auto;
+    width: 50%;
+    margin: auto;
     text-align: center;
+}
+main img{
+    height: 150px;
+    /* margin-bottom: auto; */
+    margin-top: -90%;
 }
 input{
     width: 80%;
     padding: 1em;
     border-radius: 30px;
-    border: 1px solid grey;
+    border: 1px solid rgb(39, 38, 38);
 }
 .btns_container{
-    margin-top: 1em;
+    margin-top: 3%;
 }
 .btns_container button{
     padding: 1em;
     border: none;
-}
-footer{
-    background-color: rgb(201, 199, 199);
+    background-color: white;
+    color: rgb(0, 0, 0);
+    opacity: 50%;
 }
 .footer_top{
     padding: 1em;
+    margin-top: 10%;
 }
 .footer_bottom{
     padding: 1em;
@@ -50,8 +58,11 @@ footer{
     justify-content: space-between;
     border-top: 1px solid grey;
 }
+.footer_top p{
+    color: white;
+}
 .left a{
-    margin-right: 3em;
+    margin-right: 1em;
 }
 .right a{
     margin-right: 1em;
